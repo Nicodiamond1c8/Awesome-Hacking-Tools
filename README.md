@@ -25,7 +25,7 @@ ________________________________________________________________________________
 * __airoscript	45.0a122ee__	A script to simplify the use of aircrack-ng tools.	http://midnightresearch.com/projects/wicrawl/
 * __airpwn	1.4__	A tool for generic packet injection on an 802.11 network.	http://airpwn.sourceforge.net
 * __allthevhosts 1.0__	A vhost discovery tool that scrapes various web applications	http://labs.portcullis.co.uk/tools/finding-all-the-vhosts/
-* __amass 1.3.2__ In-depth subdomain enumeration written in Go https://github.com/caffix/amass
+* __Amass v1.4.0__ A tool that performs DNS subdomain enumeration by scraping the largest number of disparate data sources, recursive brute forcing, crawling of web archives, permuting and altering names, reverse DNS sweeping and other techniques https://github.com/caffix/am
 * __american-fuzzy-lop	0.89b__	A practical, instrumentation-driven fuzzer for binary formats.	https://code.google.com/p/american-fuzzy-lop/
 * __androguard	1.9__	Reverse engineering, Malware and goodware analysis of Android applications and more.	https://code.google.com/p/androguard/
 * __androick	5.35048d7__	A python tool to help in forensics analysis on android.	https://github.com/Flo354/Androick
@@ -183,6 +183,7 @@ ________________________________________________________________________________
 * __cutycapt	10__	A Qt and WebKit based command-line utility that captures WebKit's rendering of a web page.	http://cutycapt.sourceforge.net/
 * __cvechecker	3.5__	The goal of cvechecker is to report about possible vulnerabilities on your system, by scanning the installed software and matching the results with the CVE database.	http://cvechecker.sourceforge.net/
 * __cymothoa	1__	A stealth backdooring tool, that inject backdoor's shellcode into an existing process.	http://cymothoa.sourceforge.net/
+* __d4n155 1.50__ Security audit tool for smart and dynamic wordlist using Google hacking attack and some calculations, after analysis is generated a graphical report. https://github.com/adasecurity/D4N155
 * __darkbing	0.1__	A tool written in python that leverages bing for mining data on systems that may be susceptible to SQL injection.	http://packetstormsecurity.com/files/111510/darkBing-SQL-Scanner.1.html
 * __darkd0rk3r	1.0__	Python script that performs dork searching and searches for local file inclusion and SQL injection errors.	http://packetstormsecurity.com/files/117403/Dark-D0rk3r.0.html
 * __darkjumper	5.8__	This tool will try to find every website that host at the same server at your target	http://sourceforge.net/projects/darkjumper/
@@ -196,6 +197,7 @@ ________________________________________________________________________________
 * __dcfldd	1.3.4.1__	DCFL (DoD Computer Forensics Lab) dd replacement with hashing	http://dcfldd.sourceforge.net/
 * __ddrescue	1.19__	GNU data recovery tool	http://www.gnu.org/software/ddrescue/ddrescue.html
 * __deblaze	0.3__	A remote method enumeration tool for flex servers	http://deblaze-tool.appspot.com/
+* __decker 0.0.11__ A penetration testing orchestration and automation framework, which allows writing declarative, reusable configurations capable of ingesting variables and using outputs of tools it has run as inputs to others.
 * __delldrac	0.1a__	DellDRAC and Dell Chassis Discovery and Brute Forcer.	https://www.trustedsec.com/september/owning-dell-drac-awesome-hack/
 * __depant	0.3a__	Check network for services with default passwords.	http://midnightresearch.com/projects/depant/
 * __device-pharmer__	35.c1d449e	Opens 1K+ IPs or Shodan search results and attempts to login.	https://github.com/DanMcInerney/device-pharmer
@@ -884,6 +886,7 @@ reaver	1.4	Implements a brute force attack against wifi protected setup WPS regi
 * __sslcaudit	522.5b6be3e__	Utility to perform security audits of SSL/TLS clients.	https://github.com/grwl/sslcaudit
 * __ssldump	0.9b3__	an SSLv3/TLS network protocol analyzer	http://www.rtfm.com/ssldump/
 * __sslh	1.16__	SSL/SSH/OpenVPN/XMPP/tinc port multiplexer	http://www.rutschle.net/tech/sslh.shtml
+* __ssllabs__	Web tool to test SSL for vunerabilities.	https://www.ssllabs.com/ssltest/
 * __sslmap	0.2.0__	A lightweight TLS/SSL cipher suite scanner.	http://thesprawl.org/projects/latest/
 * __sslnuke	5.c5faeaa__	Transparent proxy that decrypts SSL traffic and prints out IRC messages.	https://github.com/jtripper/sslnuke
 * __sslscan	239.1328b49__	Tests SSL/TLS enabled services to discover supported cipher suites.	https://github.com/DinoTools/sslscan
@@ -926,6 +929,7 @@ reaver	1.4	Implements a brute force attack against wifi protected setup WPS regi
 * __tcptraceroute	1.5beta7__	A traceroute implementation using TCP packets.	http://michael.toren.net/code/tcptraceroute/
 * __tcpwatch	1.3.1__	A utility written in Python that lets you monitor forwarded TCP connections or HTTP proxy connections.	http://hathawaymix.org/Software/TCPWatch
 * __tcpxtract	1.0.1__	A tool for extracting files from network traffic.	http://tcpxtract.sourceforge.net
+* __testssl.sh__	Command line tool to test SSL for vunerabilities.	https://www.ssllabs.com/ssltest/
 * __teardown	1.0__	Command line tool to send a BYE request to tear down a call.	http://www.hackingexposedvoip.com/
 * __tekdefense-automater	52.6d0bd5a__	IP URL and MD5 OSINT Analysis	https://github.com/1aN0rmus/TekDefense-Automater
 * __termineter	0.1.0__	Smart meter testing framework	https://code.google.com/p/termineter/
@@ -1062,7 +1066,7 @@ reaver	1.4	Implements a brute force attack against wifi protected setup WPS regi
 * __wpbf	7.11b6ac1__	Multithreaded WordPress brute forcer.	https://github.com/dejanlevaja/wpbf
 * __wpscan	1803.88808db__	A vulnerability scanner which checks the security of WordPress installations using a black box approach.	http://wpscan.org
 * __ws-attacker	1.3__	A modular framework for web services penetration testing.	http://ws-attacker.sourceforge.net/
-* __wsfuzzer	1.9.5__	A Python tool written to automate pentesting of web services. https://www.owasp.org/index.php/Category:OWASP_WSFuzzer_ProjectSOAP	
+* __wsfuzzer	1.9.5__	A Python tool written to automate pentesting of web services. https://www.owasp.org/index.php/Category:OWASP_WSFuzzer_ProjectSOAP
 * __wyd	0.2__	Gets keywords from personal files. IT security/forensic tool.	http://www.remote-exploit.org/?page_id=418
 * __x-scan	3.3__	A general network vulnerabilities scanner for scanning network vulnerabilities for specific IP address scope or stand-alone computer by multi-threading method, plug-ins are supportable.	http://www.xfocus.org/
 * __xcavator	5.bd9e2d8__	Man-In-The-Middle and phishing attack tool that steals the victim's credentials of some web services like Facebook.	https://github.com/nccgroup/xcavator
